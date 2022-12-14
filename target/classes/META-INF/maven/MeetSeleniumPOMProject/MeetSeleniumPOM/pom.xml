@@ -135,7 +135,13 @@
         <plugin>
           <artifactId>maven-project-info-reports-plugin</artifactId>
           <version>3.0.0</version>
+          <configuration>
+          	<suiteXMLFiles>
+          		<suiteXMLFile>testng.xml</suiteXMLFile>
+          	</suiteXMLFiles>
+          </configuration>
         </plugin>
+        
       </plugins>
     </pluginManagement>
   </build>
